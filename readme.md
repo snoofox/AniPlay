@@ -1,5 +1,7 @@
 # AniPlay
 
+[![HvR40dX.md.png](https://iili.io/HvR40dX.md.png)](https://freeimage.host/i/HvR40dX)
+
 AniPlay is an anime streaming site built with React.js, offering a comprehensive collection of anime shows and movies. The platform leverages the AniList API and video data from GogoAnime to provide an immersive viewing experience.
 
 <p align="center">
