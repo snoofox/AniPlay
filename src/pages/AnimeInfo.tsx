@@ -81,9 +81,9 @@ export const AnimeInfo = () => {
                 </Box>
             </Flex>
             <Flex display={{ base: 'flex', md: 'none' }} flexDirection="column" gap={2} mt={6}>
-                <Button bg="#9B1C31" _hover={{ bg: '#C34A4A' }}>Watch Sub</Button>
+                <Button bg="#9B1C31" _hover={{ bg: '#C34A4A' }} onClick={() => navigate(`/play/${slug}-episode-1`)}>Watch Sub</Button>
                 {animeData.isDub && (
-                    <Button>Watch Dub</Button>
+                    <Button onClick={() => navigate(`/play/${slug}-dub-episode-1`)}>Watch Dub</Button>
                 )}
             </Flex>
             <Box
