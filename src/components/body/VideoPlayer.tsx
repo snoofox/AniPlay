@@ -27,6 +27,7 @@ export const VideoPlayer = ({ sources, internalPlayer, setInternalPlayer, title 
                 'current-time',
                 'duration',
                 'mute',
+                'captions',
                 'settings',
                 'pip',
                 'fullscreen',
@@ -244,7 +245,9 @@ export const VideoPlayer = ({ sources, internalPlayer, setInternalPlayer, title 
                 ref={videoRef}
                 playsInline
                 crossOrigin="anonymous"
-            ></video>
+            >
+                <track kind="captions" src="" srcLang="en" label="English" default />
+            </video>
         </Box>
     );
 }

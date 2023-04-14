@@ -32,7 +32,7 @@ export const Player = () => {
 
         fetchLinks();
 
-    }, [])
+    }, [slug])
 
     if (loading) {
         return (
