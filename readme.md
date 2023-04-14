@@ -61,4 +61,4 @@ SOFTWARE.
 Hope you liked it. Wanna support?
 
 - **[Star This Repository](https://github.com/snoofox/AniPlay)**
-- **[Buy Me Coffee](https://www.buymeacoffee.com/snoofox)**
+- **[Buy Me Coffee](https://www.buymeacoffee.com/shoto)**
