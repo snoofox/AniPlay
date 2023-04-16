@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 
 export const VideoPlayer = ({ sources, internalPlayer, setInternalPlayer, title }: any) => {
-    const src = `https://corsbypass.herokuapp.com/${sources.stream[0]}`;
+    const src = `https://aniplay-proxy.onrender.com/${sources.stream[0]}`;
     const [player, setPlayer] = useState<any>(null);
     const videoRef = useRef<any>();
 
